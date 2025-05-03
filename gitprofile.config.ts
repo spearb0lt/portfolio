@@ -80,7 +80,7 @@ const CONFIG = {
     linkedin: 'shubhro-dev',
     twitter: '',
     mastodon: '',
-    researchGate: '',
+    researchGate: 'Shubhro-Dev',
     facebook: '',
     instagram: 'shubhro_x',
     reddit: '',
