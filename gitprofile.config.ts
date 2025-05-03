@@ -273,7 +273,7 @@ const CONFIG = {
       conferenceName: 'IEEE Conference on Intelligent Systems, Advanced Computing and Communication (ISACC 2025)',
       journalName: '',
       authors: 'Shubhro Dev, Pragyadipta Sinha Roy, Neelotpal Chakraborty, Ram Sarkar',
-      link: 'https://example.com',
+      link: 'http://dx.doi.org/10.1109/ISACC65211.2025.10969319',
       description:
         'A fine-tuned DTL model of DenseNet121 which is equipped with a soft attention-based mechanism, is implemented for lung cancer identification from CT scans. The training and evaluation of the proposed system is done on standard datasets like IQ-OTH/NCCD as well as LIDC-IDRI, and a comparison of the performance is done with some standard methods. The proposed system scores the highest accuracy of 99.56% when evaluated on IQ-OTH/NCCD dataset. In the case of the LIDC-IDRI dataset, the proposed system achieves an accuracy of 95.41%, which is better than that achieved by most of the standard methods.',
     },
