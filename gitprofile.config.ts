@@ -74,7 +74,7 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Shubhro Dev',
     description: '',
-    imageURL: 'https://storage.googleapis.com/storage-ajaib-prd-platform-wp-artifact/2023/06/Google-Scholar.webp',
+    imageURL: 'https://drive.google.com/file/d/18sTzSUYaQArf--3JYT39jzbdPjjWf8C8/view?usp=drive_link',
   },
   social: {
     linkedin: 'shubhro-dev',
