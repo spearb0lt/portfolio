@@ -9,7 +9,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/portfolio/',
+  base: '/portfolio1/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -74,7 +74,7 @@ const CONFIG = {
   seo: {
     title: 'Portfolio of Shubhro Dev',
     description:
-      'Shubhro Dev — AI/ML Researcher and CSE undergraduate at RGIPT. Working on LLMs, multimodal deep learning, federated learning, differential privacy and predictive maintenance. Technical Research Intern at Siemens.',
+      'Shubhro Dev: AI/ML Researcher and CSE undergraduate at RGIPT. Working on LLMs, multimodal deep learning, federated learning, differential privacy and predictive maintenance. Technical Research Intern at Siemens.',
     imageURL:
       'https://drive.google.com/file/d/18sTzSUYaQArf--3JYT39jzbdPjjWf8C8/view?usp=drive_link',
   },
@@ -101,7 +101,7 @@ const CONFIG = {
     email: 'shubhro2004@gmail.com',
   },
   resume: {
-    fileUrl: '/portfolio/Shubhro_Dev_Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '/portfolio1/Shubhro_Dev_Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -333,7 +333,7 @@ const CONFIG = {
       authors: 'Shubhro Dev, Ayanabha Ghosh, Debasis Das',
       link: 'https://github.com/spearb0lt/Scania',
       description:
-        'A privacy-preserving hybrid architecture fusing a custom transformer-based time-series encoder with a Mamba state-space model, combined with differential privacy, for Remaining Useful Life (RUL) prediction and industrial predictive maintenance on multivariate time-series data using the IDA-2024 Challenge SCANIA-X dataset.',
+        'This work presents a privacy-preserving hybrid architecture for industrial predictive maintenance on multivariate time-series data, evaluated on the IDA-2024 Challenge SCANIA-X dataset. Numerical and categorical sensor features are jointly encoded into transformer embeddings through a TabTransformer, and a custom transformer-based encoder is combined with a Mamba state-space model to capture long-range temporal dependencies for Remaining Useful Life (RUL) prediction. Differential privacy is incorporated through Spectral-DP and DP-SGD, while a federated training strategy enables global model aggregation across heterogeneous clients that mirror real industrial equipment. The proposed system achieves the best RUL prediction performance on the dataset with a mean squared error of 2725 while preserving training data privacy, with its resilience further validated through membership inference attacks.',
     },
     {
       title:
@@ -343,7 +343,7 @@ const CONFIG = {
       authors: 'Shubhro Dev, Jyotirmoy Konwar, Madhav Aggarwal, Santosh Mishra',
       link: '',
       description:
-        'A scalable framework for high-quality extractive summarization of very long documents, designed as a lightweight alternative to computationally expensive LLM-based summarizers. Each sentence is encoded through multiple heterogeneous "views" — TF-IDF for lexical importance alongside contextual embeddings such as BERT, FinBERT, and instruction-tuned models — which are fused into a single robust representation, on the premise that a sentence is important when independent models agree it is. The fused vectors are compressed with UMAP to preserve both local and global structure, then grouped using K-Medoids so that every cluster centre is an actual sentence rather than a synthetic centroid. An NSGA-II evolutionary multi-objective optimizer jointly selects the set of representative medoid sentences by balancing several clustering objectives (Silhouette, Davies-Bouldin, and PBM indices) along a Pareto front, and the selected sentences are re-ordered by their original position to form the summary. The result is a factual, hallucination-free extractive summary produced at a fraction of the computational cost of autoregressive LLMs, making it practical for enterprise-scale documents.',
+        'This work proposes a scalable framework for extractive summarization of long documents as a lightweight alternative to computationally expensive large language models. Every sentence is represented through multiple heterogeneous embeddings, including TF-IDF and contextual language models, which are fused into a single robust representation and reduced in dimensionality using UMAP. K-Medoids clustering is then applied so that each cluster is represented by an actual sentence, and an NSGA-II multi-objective optimizer selects the most representative sentences by simultaneously balancing several clustering quality measures. Experimental results indicate that the proposed method produces factual extractive summaries comparable to large language model based approaches while requiring significantly less computation, making it suitable for enterprise-scale documents.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
