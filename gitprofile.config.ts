@@ -321,8 +321,8 @@ const CONFIG = {
         'A Differentially Private Hybrid Transformer-Mamba Architecture for Industrial Predictive Maintenance on Multivariate Time Series Data',
       conferenceName: '',
       journalName: 'In submission: IEEE Transactions on Intelligent Transportation Systems',
-      authors: 'Shubhro Dev, Ayush Ghosh, Debasis Das',
-      link: '',
+      authors: 'Shubhro Dev, Ayanabha Ghosh, Debasis Das',
+      link: 'https://github.com/spearb0lt/Scania',
       description:
         'A privacy-preserving hybrid architecture fusing a custom transformer-based time-series encoder with a Mamba state-space model, combined with differential privacy, for Remaining Useful Life (RUL) prediction and industrial predictive maintenance on multivariate time-series data using the IDA-2024 Challenge SCANIA-X dataset.',
     },
@@ -331,7 +331,7 @@ const CONFIG = {
         'A Multiview Multiobjective Clustering Approach to Unsupervised Extractive Summarization',
       conferenceName: '',
       journalName: 'Manuscript in preparation (Target: AACL 2026)',
-      authors: 'Shubhro Dev, Jyotishman Konwar, Mihir Aggarwal, Shubham Mishra',
+      authors: 'S. Dev, J. Konwar, M. Aggarwal, S. Mishra',
       link: '',
       description:
         'A multiview, multiobjective clustering approach for unsupervised extractive text summarization.',
