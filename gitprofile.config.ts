@@ -73,8 +73,10 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Shubhro Dev',
-    description: '',
-    imageURL: 'https://drive.google.com/file/d/18sTzSUYaQArf--3JYT39jzbdPjjWf8C8/view?usp=drive_link',
+    description:
+      'Shubhro Dev — AI/ML Researcher and CSE undergraduate at RGIPT. Working on LLMs, multimodal deep learning, federated learning, differential privacy and predictive maintenance. Technical Research Intern at Siemens.',
+    imageURL:
+      'https://drive.google.com/file/d/18sTzSUYaQArf--3JYT39jzbdPjjWf8C8/view?usp=drive_link',
   },
   social: {
     linkedin: 'shubhro-dev',
@@ -95,56 +97,81 @@ const CONFIG = {
     skype: '',
     telegram: '',
     website: '',
-    phone: '',
+    phone: '+918272979689',
     email: 'shubhro2004@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://drive.google.com/file/d/1RqHGYUSd7BZ5jXVpHWGCiMBniABKdEx4/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '/portfolio/Shubhro_Dev_Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    // 'PHP',
-    // 'Laravel',
     'Python',
-    'Tensorflow',
+    'C++',
+    'C',
+    'SQL',
+    'PyTorch',
+    'TensorFlow',
     'Keras',
+    'LangChain',
+    'LangGraph',
+    'Hugging Face',
+    'NLTK',
+    'Scikit-learn',
+    'NumPy',
     'Pandas',
-    'Numpy',
+    'SciPy',
     'Matplotlib',
     'Seaborn',
-    'Scikit-learn',
-    'Jupyter Notebook',
-    'Jupyter Lab',
-    'PyCharm',
-    'VS Code',
+    'OpenCV',
+    'AWS',
+    'Streamlit',
+    'Power BI',
+    'Tableau',
+    'Federated Learning',
+    'Fine-tuning',
     'HTML',
     'CSS',
-    'JavaScript',
     'Flask',
     'Django',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
     'Git',
-    // 'Docker',
-    // 'PHPUnit',
-    // 'CSS',
-    // 'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'IIT-Varanasi(BHU)',
+      company: 'Siemens',
+      position: 'Technical Research Intern — Global DAI R (SDE-IN Team)',
+      from: 'January 2026',
+      to: 'June 2026',
+      companyLink: 'https://www.siemens.com/',
+    },
+    {
+      company: 'VANET Lab, IIT Jodhpur',
+      position: 'Research Assistant',
+      from: 'February 2025',
+      to: 'August 2025',
+      companyLink: 'https://iitj.ac.in/',
+    },
+    {
+      company: 'Core-AI Solutions',
+      position: 'Data Science Intern',
+      from: 'January 2025',
+      to: 'May 2025',
+      companyLink: '',
+    },
+    {
+      company: 'Adani Power',
+      position: 'Machine Learning Intern',
+      from: 'November 2024',
+      to: 'January 2025',
+      companyLink: 'https://www.adanipower.com/',
+    },
+    {
+      company: 'VCA Lab, IIT(BHU) Varanasi',
       position: 'Research Intern',
       from: 'June 2024',
       to: 'October 2024',
       companyLink: 'https://iitbhu.ac.in/',
     },
     {
-      company: 'Jadavpur University',
+      company: 'CMATER Lab, Jadavpur University',
       position: 'Research Intern',
       from: 'May 2024',
       to: 'August 2024',
@@ -152,6 +179,18 @@ const CONFIG = {
     },
   ],
   certifications: [
+    {
+      name: 'Summer of Quant 2024',
+      body: 'IIT Kharagpur',
+      year: '2024',
+      link: '',
+    },
+    {
+      name: 'The Web Developer Bootcamp 2024',
+      body: 'Udemy',
+      year: '2024',
+      link: '',
+    },
     {
       name: 'Supervised Machine Learning: Regression and Classification',
       body: 'Stanford Online & DeepLearning.AI',
@@ -207,14 +246,14 @@ const CONFIG = {
     {
       name: 'Sequence Models',
       body: 'DeepLearning.AI & Coursera',
-      year: 'January 2024',
+      year: 'January 2025',
       link: 'https://www.coursera.org/learn/nlp-sequence-models',
     },
 
     {
       name: 'Deep Learning Specialization',
       body: 'DeepLearning.AI & Coursera',
-      year: 'January 2024',
+      year: 'January 2025',
       link: 'https://www.coursera.org/specializations/deep-learning',
     },
   
@@ -246,8 +285,8 @@ const CONFIG = {
       to: '2026',
     },
     {
-      institution: 'Bharaitiya Vidya Bhavans Kolkata',
-      degree: 'Class 12',
+      institution: 'Bharatiya Vidya Bhavans, Kolkata',
+      degree: 'Class 12 (CBSE Board)',
       from: '2021',
       to: '2022',
     },
@@ -276,6 +315,26 @@ const CONFIG = {
       link: 'http://dx.doi.org/10.1109/ISACC65211.2025.10969319',
       description:
         'A fine-tuned DTL model of DenseNet121 which is equipped with a soft attention-based mechanism, is implemented for lung cancer identification from CT scans. The training and evaluation of the proposed system is done on standard datasets like IQ-OTH/NCCD as well as LIDC-IDRI, and a comparison of the performance is done with some standard methods. The proposed system scores the highest accuracy of 99.56% when evaluated on IQ-OTH/NCCD dataset. In the case of the LIDC-IDRI dataset, the proposed system achieves an accuracy of 95.41%, which is better than that achieved by most of the standard methods.',
+    },
+    {
+      title:
+        'A Differentially Private Hybrid Transformer-Mamba Architecture for Industrial Predictive Maintenance on Multivariate Time Series Data',
+      conferenceName: '',
+      journalName: 'In submission: IEEE Transactions on Intelligent Transportation Systems',
+      authors: 'Shubhro Dev, Ayush Ghosh, Debasis Das',
+      link: '',
+      description:
+        'A privacy-preserving hybrid architecture fusing a custom transformer-based time-series encoder with a Mamba state-space model, combined with differential privacy, for Remaining Useful Life (RUL) prediction and industrial predictive maintenance on multivariate time-series data using the IDA-2024 Challenge SCANIA-X dataset.',
+    },
+    {
+      title:
+        'A Multiview Multiobjective Clustering Approach to Unsupervised Extractive Summarization',
+      conferenceName: '',
+      journalName: 'Manuscript in preparation (Target: AACL 2026)',
+      authors: 'Shubhro Dev, Jyotishman Konwar, Mihir Aggarwal, Shubham Mishra',
+      link: '',
+      description:
+        'A multiview, multiobjective clustering approach for unsupervised extractive text summarization.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
